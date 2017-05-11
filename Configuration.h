@@ -247,9 +247,9 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it auto tune: M303 E0 S200 C8
   // Ultimaker
-  #define  DEFAULT_Kp 24.80
-  #define  DEFAULT_Ki 1.67
-  #define  DEFAULT_Kd 92.03
+  #define  DEFAULT_Kp 19.44
+  #define  DEFAULT_Ki 1.42
+  #define  DEFAULT_Kd 66.41
 
   // MakerGear
   //#define  DEFAULT_Kp 7.0
