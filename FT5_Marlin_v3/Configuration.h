@@ -247,9 +247,9 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it auto tune: M303 E0 S200 C8
   // Ultimaker
-  #define  DEFAULT_Kp 19.44
-  #define  DEFAULT_Ki 1.42
-  #define  DEFAULT_Kd 66.41
+  #define  DEFAULT_Kp 24.75
+  #define  DEFAULT_Ki 2.03
+  #define  DEFAULT_Kd 75.43
 
   // MakerGear
   //#define  DEFAULT_Kp 7.0
@@ -683,7 +683,7 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {160,160,800,190}  // default steps per unit for Ultimaker
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {160,160,800,837}  // default steps per unit for Ultimaker
 #define DEFAULT_MAX_FEEDRATE          {300, 300, 5, 25}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {1500,1500,200,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
 
