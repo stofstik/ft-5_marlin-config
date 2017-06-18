@@ -245,21 +245,14 @@
   #define PID_INTEGRAL_DRIVE_MAX PID_MAX  //limit for the integral term
   #define K1 0.95 //smoothing factor within the PID
 
-  // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it auto tune: M303 E0 S200 C8
-  // Ultimaker
-  #define  DEFAULT_Kp 24.75
-  #define  DEFAULT_Ki 2.03
-  #define  DEFAULT_Kd 75.43
-
-  // MakerGear
-  //#define  DEFAULT_Kp 7.0
-  //#define  DEFAULT_Ki 0.1
-  //#define  DEFAULT_Kd 12
-
-  // Mendel Parts V9 on 12V
-  //#define  DEFAULT_Kp 63.0
-  //#define  DEFAULT_Ki 2.25
-  //#define  DEFAULT_Kd 440
+  // ################
+  // # EXTRUDER PID #
+  // ################
+  // PID with one radial fan running at 50%
+  // M303 E0 S250 C8
+  #define  DEFAULT_Kp 28.52
+  #define  DEFAULT_Ki 2.38
+  #define  DEFAULT_Kd 85.51
 
 #endif // PIDTEMP
 
